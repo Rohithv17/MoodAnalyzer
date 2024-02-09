@@ -11,11 +11,11 @@ public class PersonMoodAnalyzer {
 
     public String analyzeMood(){  // Method to find mood of the person
 
-        if(msg.contains("sad")){
+        if(msg.contains("sad")){   //if message contains the word "sad" ,returns "SAD" ,any other message  returns "HAPPY"
             return "SAD";
         }
         else {
-            return "Invalid Mood";
+            return "HAPPY";
         }
 
     }
