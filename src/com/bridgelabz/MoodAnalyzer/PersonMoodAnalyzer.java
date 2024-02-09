@@ -12,7 +12,7 @@ public class PersonMoodAnalyzer {
  }
     public String analyzeMood(){  // Method to find mood of the person
 
-        if(msg.contains("happy")){   //if message contains the word "sad" ,method returns "HAPPY"
+        if(msg.contains("happy")){   //if message contains the word "happy" ,method returns "SAD"
             return "SAD";
         }
        else{
