@@ -5,7 +5,7 @@ import com.bridgelabz.MoodAnalyzer.PersonMoodAnalyzer;
 public class Main {
     public static void main(String[] args) {
 
-        PersonMoodAnalyzer p = new PersonMoodAnalyzer("I am in sad mood"); //Giving this message to get the output "SAD"
+        PersonMoodAnalyzer p = new PersonMoodAnalyzer("I am in happy mood"); //Giving this message to get the output "HAPPY"(inverse)
         System.out.println("Mood of the person is : "+p.analyzeMood());
 
         }
