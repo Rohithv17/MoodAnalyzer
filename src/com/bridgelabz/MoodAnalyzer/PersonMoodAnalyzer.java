@@ -2,21 +2,21 @@ package com.bridgelabz.MoodAnalyzer;
 
 public class PersonMoodAnalyzer {
 
-    private final String msg;
+    private  String msg;
 
-    public PersonMoodAnalyzer(String msg){
-        this.msg=msg;
-
+    public PersonMoodAnalyzer(){ //empty or default constructor
+        this.msg=" ";
     }
-
+ public PersonMoodAnalyzer(String msg){ //constructor with parameters
+        this.msg=msg;
+ }
     public String analyzeMood(){  // Method to find mood of the person
 
-        if(msg.contains("sad")){   //if message contains the word "sad" ,returns "SAD" ,any other message  returns "HAPPY"
+        if(msg.contains("sad")){   //if message contains the word "sad" ,method returns "SAD"
             return "SAD";
         }
-        else {
-            return "HAPPY";
+       else{
+           return "NO MOOD";
         }
-
     }
 }
