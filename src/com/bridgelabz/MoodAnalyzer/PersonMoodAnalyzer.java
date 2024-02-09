@@ -2,7 +2,7 @@ package com.bridgelabz.MoodAnalyzer;
 
 public class PersonMoodAnalyzer {
 
-    private final String msg;
+    private  String msg;
 
     public PersonMoodAnalyzer(String msg){
         this.msg=msg;
