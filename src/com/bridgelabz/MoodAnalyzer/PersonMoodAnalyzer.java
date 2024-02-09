@@ -23,9 +23,9 @@ public class PersonMoodAnalyzer {
         }
 
        }
-       catch (NullPointerException e){     //catches the exception to print the ouput  "invalid mood"
-           System.out.println("Error : "+e.getMessage());
-           return "Invalid Mood!";
+       catch (NullPointerException e){     //catches the exception to return "Happy" in case of null input
+           System.out.println("Null message : "+e.getMessage());
+           return "Happy";
        }
 
     }
