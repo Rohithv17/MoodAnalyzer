@@ -5,10 +5,7 @@ import com.bridgelabz.MoodAnalyzer.PersonMoodAnalyzer;
 public class Main {
     public static void main(String[] args) {
 
-        PersonMoodAnalyzer p = new PersonMoodAnalyzer(null); //Giving this null  message to get the output "Invalid"
-        System.out.println("Mood of the person is : "+p.analyzeMood());
+        PersonMoodAnalyzer p = new PersonMoodAnalyzer(null);
+        System.out.println("Mood of the person is : " + p.analyzeMood());
+    }}
 
-
-
-        }
-    }
